@@ -14,9 +14,27 @@ Como uma imagem vale por mil palavras ....
 ## Instruções
 
 Atualmente não aceita entrada pelo teclado, somente mouse
-- **9,8,7,6,5,4,3,2,1** e **0** : Entrada de valores numéricos
-- **.** (ponto) : informação do ponto decimal
-- **+, -, * ** e **/** : entrada das quatro operações para efetuar os cálculos
-- **(** e **)** : defini a prioridade das operações
-- **=** : efetua o cálculo e coloca na lista superior
-- 
+- __9,8,7,6,5,4,3,2,1__ e __0__ : Entrada de valores numéricos
+- __.(ponto)__ : informação do ponto decimal (também pode ser utilizado para tuplas)
+- __+, -, *__ e __/__ : entrada das quatro operações para efetuar os cálculos
+- __(__ e __)__ : defini a prioridade das operações
+- __=__ : efetua o cálculo e coloca na lista superior
+- __M+__ e __M-__ : adiciona ou subtrai o vlor do visor da memória (se for um cálculo, será avaliado antes)
+- __MC__ : limpara o valor da memória (zera)
+- __C__ : limpa o valor do visor; se pressionado novamente, limpa a lista superior
+- __<=__ : apaga o último valor digitado
+- __Rnd__ : retorna um número aleatório entre 1 e o próximo valor no visor
+- __π__ : insere o valor de pi (3.14159...)
+- __X__ (direita) : indicação de par ordenado (4x6)
+- __:__ (direita) : separador de hora (hh:mm[:ss])
+- __/__ (direita) : separador de data (dd/mm/aa[aa])
+- __%__ (direita) : indicador de percentual (20% -> 0.2)
+- __lista superior__ : clicando na lista superior, a entrada sem o resultado será copiada para o visor)
+
+## Exemplos de cálculos
+
+Nas imagens acima é possível ver alguns exemplos de cálculos.
+
+## Para fazer
+
+São tantas ideias que nem é possível listar. A próxima etapa será permitir a entrada pelo teclado (número, ponto, calcular resultado e limpeza da tela). 
