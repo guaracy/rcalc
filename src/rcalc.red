@@ -1,15 +1,14 @@
 Red [ needs: 'view]
 
-π: func[][pi]
+π: does[pi]
 rnd: func[n][random n]
 calcula: func[v l][
     attempt [
         eq: yes
-        res: form math load v/text 
+        res: form math to block! load v/text 
         c: copy v/text
         append c rejoin [" = " res]
         append l/data c
-        ;l/selected: length? l/data
         append clear v/text res
     ]
 ]
