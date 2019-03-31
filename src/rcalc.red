@@ -32,7 +32,6 @@ view [
     style bc: mb beige font-color red
     space 1x1
     l: text-list 305x150 font-size 14 data []  [
-        ;unless eq [exit]
         parse l/data/(l/selected) [copy t to "="]
         v/text: trim t
         l/selected: none
@@ -46,7 +45,7 @@ view [
     bm "MR" [if eq [clear v/text] eq: no append v/text m] 
     bc "MC" [m: 0]
     bc "C"  [either empty? v/text[clear l/data][clear v/text]] 
-    bc "<=" [s: trim v/text v/text: trim copy/part s (length? s) - 1] return ;bt "%" return
+    bc "<=" [s: trim v/text v/text: trim copy/part s (length? s) - 1] return
 
     bo "7" bo "8" bo "9"   bk " + "  bk " - " bt "x" return
     bo "4" bo "5" bo "6"   bk " * "  bk " / " bt ":" return
