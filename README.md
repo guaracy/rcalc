@@ -10,6 +10,8 @@ Como uma imagem vale por mil palavras ....
 2. Programa rodando no Linux (Deepin x64)
 3. Programa rodando no Raspberry Pi (raspbian)
 4. Programa rodando no RPi via SSH (Linux)
+5. Programa rodando no MacOS (cedida por: [R cqls](https://github.com/rcqls))
+6. Só esperando o Red para Android (ainda vai demorar um pouco)
 
 ## Instruções
 
@@ -34,6 +36,10 @@ Atualmente não aceita entrada pelo teclado, somente mouse
 ## Exemplos de cálculos
 
 Nas imagens acima é possível ver alguns exemplos de cálculos.
+
+## Post no Wordpress
+
+Se você deseja comentar ou outras informações, pode dar uma passada no [wordpress](https://fotomix.wordpress.com/2019/03/31/calculadora-red-gui-o-mais-dificil-e-saber-quando-parar/).
 
 ## Para fazer
 
