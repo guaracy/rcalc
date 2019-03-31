@@ -1,7 +1,7 @@
-# rcalc
+* rcalc
 Uma calculadora simples em Red.
 
-## Screenshot
+** Screenshot
 Como uma imagem vale por mil palavras ....
 
 ![rcalc](rcalc.png)
