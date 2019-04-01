@@ -43,4 +43,4 @@ Se você deseja comentar ou outras informações, pode dar uma passada no [wordp
 
 ## Para fazer
 
-São tantas ideias que nem é possível listar. A próxima etapa será permitir a entrada pelo teclado (número, ponto, calcular resultado e limpeza da tela). 
+São tantas ideias que nem é possível listar. ~~A próxima etapa será permitir a entrada pelo teclado (número, ponto, calcular resultado e limpeza da tela)~~. 
