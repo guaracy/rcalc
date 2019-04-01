@@ -15,7 +15,6 @@ Como uma imagem vale por mil palavras ....
 
 ## Instruções
 
-Atualmente não aceita entrada pelo teclado, somente mouse
 - __9,8,7,6,5,4,3,2,1__ e __0__ : Entrada de valores numéricos
 - __.(ponto)__ : informação do ponto decimal (também pode ser utilizado para tuplas)
 - __+, -, *__ e __/__ : entrada das quatro operações para efetuar os cálculos
@@ -32,6 +31,7 @@ Atualmente não aceita entrada pelo teclado, somente mouse
 - __/__ (direita) : separador de data (dd/mm/aa[aa])
 - __%__ (direita) : indicador de percentual (20% -> 0.2)
 - __lista superior__ : clicando na lista superior, a entrada sem o resultado será copiada para o visor)
+- é possível entrar pelo teclado com números, ponto decimal, as quatro operações, C para limpar o visor e Backspace para apagar o último dígito.
 
 ## Exemplos de cálculos
 
