@@ -31,12 +31,16 @@ visor-delch: func[][
 view [
     title "Calculadora - [Red]"
     on-key [
-        case [
-            find ch-valido event/key [visor-insere event/key]
-            find op-valida event/key [visor-insere rejoin [" " event/key " "]]
-            event/key = CR [calcula]
-            event/key = BS [visor-delch]
-            find "Cc" event/key [visor-limpa]
+        ; acho que o gtk ainda não está completo ou estou fazendo algo errado
+        ; bs retorna none. no windows funciona bem
+        unless none? event/key [
+            case [
+                find ch-valido event/key [visor-insere event/key]
+                find op-valida event/key [visor-insere rejoin [" " event/key " "]]
+                event/key = CR [calcula]
+                event/key = BS [visor-delch]
+                find "Cc" event/key [visor-limpa]
+            ]
         ]
     ]
     style mb: base 50x50 bold font-size 16 extra context [c: none]
@@ -68,7 +72,7 @@ view [
     bm "MR" [if eq [clear v/text] eq: no append v/text m] 
     bc "MC" [m: 0]
     bc "C"  [visor-limpa] 
-    bc "<=" [visor-delch] return
+    bc "⌫" [visor-delch] return
 
     bo "7" bo "8" bo "9"   bk " + "  bk " - " bt "x" return
     bo "4" bo "5" bo "6"   bk " * "  bk " / " bt ":" return
